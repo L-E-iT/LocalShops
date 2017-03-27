@@ -35,6 +35,7 @@ import net.milkbowl.localshops.objects.ShopLocation;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
+@SuppressWarnings("deprecation")
 public class CommandShopCreate extends Command {
 
     public CommandShopCreate(LocalShops plugin, String commandLabel, CommandSender sender, String command, boolean isGlobal) {

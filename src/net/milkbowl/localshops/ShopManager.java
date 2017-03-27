@@ -57,6 +57,7 @@ import org.bukkit.block.Sign;
 import org.bukkit.entity.Player;
 import org.bukkit.event.block.BlockBreakEvent;
 
+@SuppressWarnings("deprecation")
 public class ShopManager {
 
     private LocalShops plugin;

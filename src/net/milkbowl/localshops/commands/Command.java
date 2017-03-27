@@ -39,6 +39,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.PlayerInventory;
 
+@SuppressWarnings("deprecation")
 public abstract class Command {
 
 	// Attributes

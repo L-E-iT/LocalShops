@@ -36,6 +36,7 @@ import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
+@SuppressWarnings("deprecation")
 public class CommandShopSet extends Command {
 
     public CommandShopSet(LocalShops plugin, String commandLabel, CommandSender sender, String command, boolean isGlobal) {

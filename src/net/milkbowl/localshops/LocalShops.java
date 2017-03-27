@@ -41,6 +41,7 @@ import net.milkbowl.localshops.threads.ThreadManager;
 import net.milkbowl.vault.economy.Economy;
 import net.milkbowl.vault.permission.Permission;
 
+import org.bukkit.Bukkit;
 import org.bukkit.Location;
 
 import org.bukkit.command.CommandExecutor;
@@ -88,7 +89,7 @@ public class LocalShops extends JavaPlugin {
         	return;
         }
         // add all the online users to the data trees
-        for (Player player : this.getServer().getOnlinePlayers()) {
+        for (Player player : Bukkit.getServer().getOnlinePlayers()) {
             getPlayerData().put(player.getName(), new PlayerData(this, player.getName()));
         }
 

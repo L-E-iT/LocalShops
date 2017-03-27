@@ -31,6 +31,7 @@ import net.milkbowl.vault.item.ItemInfo;
 
 import org.bukkit.Location;
 
+@SuppressWarnings("deprecation")
 public class LocalShop extends Shop {
 
     private static final long serialVersionUID = 30000L;

@@ -41,6 +41,7 @@ import net.milkbowl.vault.item.Items;
 
 import org.bukkit.Location;
 
+@SuppressWarnings("deprecation")
 public abstract class Shop implements Comparator<Shop>, Serializable {
 
     private static final long serialVersionUID = 30000L;

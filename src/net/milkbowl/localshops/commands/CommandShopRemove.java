@@ -34,6 +34,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
+@SuppressWarnings("deprecation")
 public class CommandShopRemove extends Command {
 
     public CommandShopRemove(LocalShops plugin, String commandLabel, CommandSender sender, String command, boolean isGlobal) {
