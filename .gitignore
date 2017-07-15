@@ -12,3 +12,5 @@ nbproject/
 #added
 target/*
 /target
+
+.idea
