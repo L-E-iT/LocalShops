@@ -49,7 +49,8 @@ public class ShopsMoveListener implements Listener {
         }
 
         Player player = null;
-        Entity entity = event.getVehicle().getPassenger();
+//        Entity entity = event.getVehicle().getPassenger();
+        Entity entity = (Entity) event.getVehicle().getPassengers();
         if (entity instanceof Player) {
             player = (Player) entity;
         } else {
